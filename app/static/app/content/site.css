@@ -1,0 +1,94 @@
+body {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/*Заглавные буквы в меню*/
+.navbar-nav a {
+    color: #fc0707;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium',sans-serif;
+    font-size: 14px;
+}
+/*Общий шрифт в блоге и фоновое изображение*/
+body {
+    /*background-color: #151215;*/
+    background-image: url(../content/background.webp);
+    /*color: #aea9ad;*/
+    font-family: Arial, "Open Sans", serif;
+    /*font-size: 16px;*/
+    font-weight: 400;
+    line-height: 1.5;
+}
+/*Информация о сайте*/
+.mytext p {
+    font-family: 'Franklin Gothic Medium',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align:inherit;
+}
+/*Стили для формы*/
+form {
+    font-family: 'Comic Sans MS';
+    font-size: 18px;
+    /*font-weight: 400;*/
+    /*line-height: 30px;*/
+    letter-spacing: 0px;
+}
+/*Стили для мобильной навигации
+.navbar-collapse.in {
+    z-index: 999999;
+    position: fixed;
+    width: 80%;
+    clear: both;
+    padding: 20px 0;
+    display: none;
+}*/
+p img {
+    float:unset; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+img {
+    float: left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}

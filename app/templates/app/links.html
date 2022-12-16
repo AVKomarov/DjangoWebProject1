@@ -1,0 +1,14 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+{% load static %}
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<p>
+   <a href="https://www.wrc.com/en/" target="_blank"> <img src="{% static 'app/content/rally.jpg' %}" alt="World Rally Championship" /></a>
+</p>
+<p>
+    <a href="https://www.f1news.ru/" target="_blank"> <img src="{% static 'app/content/f1.jpg' %}" alt="Formula 1" /></a>
+</p>
+{% endblock %}
